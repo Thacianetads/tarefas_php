@@ -5,16 +5,15 @@ Este é um sistema simples de **CRUD** (Create, Read, Update, Delete) desenvolvi
 ## 🚀 Funcionalidades
 
 - **Cadastro**: Adição de tarefas com título, descrição, data de vencimento e status (Pendente, Em Andamento, Concluída).
-- **Consulta**: Listagem em tempo real de todas as tarefas armazenadas por data de vencimento.
+- **Consulta**: Listagem em tempo real de todas as tarefas armazenadas.
 - **Edição**: Alteração dinâmica de dados de tarefas já cadastradas.
 - **Exclusão**: Remoção de tarefas com confirmação de segurança via JavaScript.
-- **Interface**: Layout responsivo e estilizado via CSS.
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** PHP 
 - **Banco de Dados:** MySQL
-- **Front-end:** HTML, CSS, JavaScript
+- **Front-end:** HTML, JavaScript
 - **Servidor Recomendado:** XAMPP
 
 ## 📋 Pré-requisitos
@@ -29,7 +28,6 @@ Antes de começar, você precisará ter instalado em sua máquina:
 2. Crie um novo banco de dados chamado `newtask`.
 3. Execute o seguinte comando SQL para criar a tabela necessária:
 
-```sql
 CREATE TABLE task (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(60) NOT NULL,
